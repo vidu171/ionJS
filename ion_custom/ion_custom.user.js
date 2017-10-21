@@ -111,8 +111,8 @@ function checkTime(i) {
   }); 
   
   button1.addEventListener("click", function(){
-    document.getElementsByName("username")[0].value="j_169105214";         //<<<-----------------------------------  USER 1 CREDENTIALS
-    document.getElementsByName("password")[0].value="strawhat12";
+    document.getElementsByName("username")[0].value="username";         //<<<-----------------------------------  USER 1 CREDENTIALS
+    document.getElementsByName("password")[0].value="password";
     document.getElementsByName("login")[0].click();
   }); 
   
